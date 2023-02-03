@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0; 
+
+}
+.brand img{
+    /* height: 44px; */
+    width: 44px;
+    padding: 0 8px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family: sans-serif;
+}
+
+nav ol{
+    align-items: center ;
+    color: white;
+    display: flex ;
+    list-style: none;
+    height: 55px;
+    background-color: rgb(48, 10, 10);
+}
+
+nav ol li {
+    padding: 0px 15px;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: rgb(37, 8, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white ;
+    flex-direction: column;
+}
+
+#ProgressBar{
+    width: 80vw;
+    
+}
+
+.icons{
+    margin-top: 15px;
+
+}
+
+.icons i{
+    cursor: pointer;
+}
