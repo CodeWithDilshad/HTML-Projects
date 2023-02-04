@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify- Just Attach to the Music </title>
-    <link rel="stylesheet" href="spotify1.css">
-    <link rel="stylesheet" href="spotify1.js">
-
-    
-</head>
-<body>
-   <nav>
-    <ol>
-        <li class="brand"><img src="Spotify logo.png" alt="Logo is here"> Spotify </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify- Just Attach to the Music</title>
+    <link rel="stylesheet" href="spotify1.css" />
+    <link rel="stylesheet" href="spotify1.js" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="brand">
+          <img src="Spotify logo.png" alt="Logo is here" /> Spotify
+        </li>
 
         <li>Home</li>
         <li>About</li>
-    </ol>
-   </nav>
+      </ol>
+    </nav>
 
-   <div class="container">
-    <h1>This is the pure content</h1>
-    <div class="songList"></div>
-    <div class="songBanner">    </div>
+    <div class="container">
+      <div>
+        <div class="SongItem">
+          <div>
+            <span>Let me love you</span>
+            <span class="SongPlay">
+              <span>05:21</span><i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+          <div>
+            <span>Let me love you</span>
+            <span class="SongPlay">
+              <span>05:21</span><i class="fa-solid fa-circle-play"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-   </div>
-
-   <div class="bottom">
-    <input type="range" name="range" id="ProgressBar" min="0" max="100">
-    <div class="icons">
+    <div class="bottom">
+      <input type="range" name="range" id="ProgressBar" min="0" max="100" />
+      <div class="icons">
         <!-- fontawesome Icon  -->
         <i class="fa-solid fa-3x fa-backward"></i>
         <i class="fa-solid fa-3x fa-circle-play"></i>
         <i class="fa-solid fa-3x fa-forward"></i>
-
+      </div>
     </div>
-   </div>
 
-   <script src="https://kit.fontawesome.com/9a9446e0b4.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/9a9446e0b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

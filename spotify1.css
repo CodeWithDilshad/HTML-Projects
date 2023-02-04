@@ -23,6 +23,7 @@
 
 body{
     background-color: antiquewhite;
+    /* background: ; */
 }
 
 nav{
@@ -43,14 +44,21 @@ nav ol li {
 }
 
 .container{
-    min-height: 75vh;
+    /* position: sticky; */
+    min-height: 60vh;
     background-color: black;
     color: white;
     font-family: sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('BG.avif');
 }
 .bottom{
     position: sticky;
-    height: 130px;
+    height: 125px;
     background-color: rgb(37, 8, 8);
     display: flex;
     align-items: center;
@@ -60,7 +68,7 @@ nav ol li {
 }
 
 #ProgressBar{
-    width: 80vw;
+    width: 60vw;
     
 }
 
@@ -71,4 +79,9 @@ nav ol li {
 
 .icons i{
     cursor: pointer;
+}
+
+.SongItem{
+    display: flex;
+    flex-direction: column;
 }
