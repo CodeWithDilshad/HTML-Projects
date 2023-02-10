@@ -44,7 +44,6 @@ nav ol li {
 }
 
 .container{
-    /* position: sticky; */
     min-height: 60vh;
     background-color: black;
     color: white;
@@ -55,6 +54,7 @@ nav ol li {
     border-radius: 12px;
     padding: 34px;
     background-image: url('BG.avif');
+    
 }
 .bottom{
     position: sticky;
@@ -80,8 +80,47 @@ nav ol li {
 .icons i{
     cursor: pointer;
 }
-
+.SongItemContainer{
+    margin-top: 80 px;
+}
 .SongItem{
+
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    align-items: center;
+    background: rgb(237, 229, 229);
+    border-radius: 34px;
+    /* width: ; */
+    height: 30px;
+    margin-top: 5px;
+    color: black;
+    margin-left: 12px;
+    
+}
+
+.SongItem img{
+    height: 23px;
+    border: 34px;
+    border-radius: 40px;
+    
+}
+
+.timespan{
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 20vw;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.songinfo img{
+    height: 40px;
+    width: 150px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
 }
